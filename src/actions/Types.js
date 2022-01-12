@@ -1,0 +1,7 @@
+
+export const RETRIEVE_POPULAR =  'RETRIEVE_POPULAR'
+export const RETRIEVE_FEATURED =  'RETRIEVE_FEATURED'
+
+
+
+

@@ -1,0 +1,37 @@
+@import '../styles/variables.scss';
+
+body{
+	margin:0;
+	background-color: $color-grey1;
+    color: grey;
+	padding-top: 20px;
+	font-family: sans-serif;
+}
+
+.main {
+    background-color: $color-white;
+    border-radius: 3px !important;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.searchBar{
+
+    &__search{
+        input{
+            padding-left: 20px;
+            display: block;
+            color: grey;
+            background-color: white !important;
+            height: 40px !important;
+            border: 2px solid lightblue;
+            border-radius: 3px !important;
+            width: 600px;
+            font-size: 18px;
+        }
+    }
+}

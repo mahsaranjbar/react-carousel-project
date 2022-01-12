@@ -1,0 +1,79 @@
+@import '../styles/variables.scss';
+
+.popular {
+    &__header {
+        padding-top: 30px;
+        font-size: 26px;
+        font-weight: bold;
+        text-align: left;
+        color: $color-grey4;
+        padding-left: 20px;
+    }
+
+    &__carousel {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+}
+
+.slider-control-bottomcenter {
+    visibility: hidden;
+}
+
+.slider-control-centerright {
+    opacity: 0.5;
+    background: transparent;
+    height: 100%;
+    background-color: $color-fade;
+
+    button {
+        background: transparent;
+        height: 100%;
+        background-color: $color-fade;
+        color: $color-grey3 !important;
+    }
+}
+
+.slider-control-centerright {
+
+    button {
+        font-size: 0px;
+    }
+
+    button::after {
+        content: ">";
+        font-size: 40px;
+        display: flex;
+        // width: 50px;
+        justify-content: right;
+    }
+}
+
+.slider-control-centerleft {
+    opacity: 0.5;
+    background: transparent;
+    height: 100%;
+    background-color: $color-fade;
+
+    button {
+        background: transparent;
+        height: 100%;
+        background-color: $color-fade;
+        color: $color-grey3 !important;
+    }
+}
+
+.slider-control-centerleft {
+
+    button {
+        font-size: 0px;
+    }
+
+    button::after {
+        content: "<";
+        font-size: 40px;
+        display: flex;
+        // width: 50px;
+        justify-content: left;
+    }
+}
